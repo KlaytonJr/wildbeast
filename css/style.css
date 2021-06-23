@@ -162,7 +162,7 @@ p {
 }
 
 .caracteristicas > div:first-child {
-    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .caracteristicas span {
@@ -234,7 +234,7 @@ p {
 /* Footer */
 .footer {
     grid-area: footer;
-    background-color: linear-gradient(135deg, #8844ee, #B07dFB);;
+    background: linear-gradient(135deg, #8844ee, #B07dFB);
 }
 
 .footer p {
@@ -274,8 +274,12 @@ p {
 
     .logo {
         margin-bottom: 20px;
+        margin: 0 auto;
     }
 
+    .header nav {
+        margin: 20px auto 0 auto;
+    }
     .header nav a {
         font-size: 1em;
     }
